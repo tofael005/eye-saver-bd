@@ -2,9 +2,9 @@
 
 const NavBar = () => {
     return (
-        <div className="flex justify-between items-center py-4 px-3 bg-slate-300">
+        <div className="flex justify-between items-center bg-slate-300">
             <div>
-                <h1>LOGO</h1>
+                <img className="w-[75px] " src="/src/assets/png.png" alt="" />
             </div>
             <div className="flex justify-between items-center gap-7">
                 <h1>ICON PROFILE</h1>
