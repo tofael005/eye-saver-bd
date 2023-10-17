@@ -1,9 +1,12 @@
-import React from 'react';
+import { Outlet } from "react-router-dom";
+import NavBar from "../Navbar/NavBar";
+
 
 const Root = () => {
     return (
-        <div>
-            <h1>Hello</h1>
+        <div className="max-w-[1240px] mx-auto">
+            <NavBar />
+            <Outlet />
         </div>
     );
 };

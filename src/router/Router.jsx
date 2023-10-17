@@ -1,7 +1,8 @@
+import { createBrowserRouter } from "react-router-dom";
 import Home from "../Home/Home";
 import Root from "../Layout/Root";
 
-const { createBrowserRouter } = require("react-router-dom");
+
 
 const router = createBrowserRouter([
     {
