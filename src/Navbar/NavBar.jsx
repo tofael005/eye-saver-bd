@@ -1,4 +1,5 @@
-
+import { CgProfile } from 'react-icons/cg';
+import { AiOutlineShoppingCart } from 'react-icons/ai';
 
 const NavBar = () => {
     return (
@@ -7,8 +8,8 @@ const NavBar = () => {
                 <img className="w-[75px] " src="/src/assets/png.png" alt="" />
             </div>
             <div className="flex justify-between items-center gap-7">
-                <h1>ICON PROFILE</h1>
-                <h1>SHOPPING CART</h1>
+                <CgProfile />
+                <AiOutlineShoppingCart />
             </div>
         </div>
     );
