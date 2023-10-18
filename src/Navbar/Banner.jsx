@@ -12,7 +12,7 @@ import { EffectCoverflow, Pagination } from 'swiper/modules';
 const Banner = () => {
     return (
 
-        <div className=''>
+        <div className='shadow-b-md'>
             <Swiper
                 effect={'coverflow'}
                 grabCursor={true}
@@ -27,7 +27,7 @@ const Banner = () => {
                 }}
                 pagination={true}
                 modules={[EffectCoverflow, Pagination]}
-                className="mySwiper md:h-[90vh] w-full object-cover"
+                className="mySwiper md:h-full w-full object-cover"
             >
                 <SwiperSlide>
                     <img src="/src/assets/sunglass.jpg" />
