@@ -2,14 +2,15 @@
 
 const BestSelling = () => {
     return (
-        <div className="my-8">
-            <h1 className="font-semibold text-2xl text-center my-4">Our Best Selling Product</h1>
+        <div className="mt-14 mb-14">
+            <h1 className="font-semibold text-2xl text-center mb-8">Our Best Selling Product</h1>
             <div className="grid md:grid-cols-3 gap-6">
-                <div className="border">
+                <div className="">
                     <img className="rounded-md" src="/src/assets/DSC_9536.JPG" alt="" />
-                    <div>
-                        <h1>Blue Cart Eye Protect</h1>
-                        <h2>$23</h2>
+                    <hr className="my-6" />
+                    <div className="flex justify-between mx-2">
+                        <h1 className="font-semibold">Blue Cart Eye Protect</h1>
+                        <h2 className="font-semibold">$ 23</h2>
                     </div>
                 </div>
             </div>
