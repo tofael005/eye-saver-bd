@@ -53,6 +53,22 @@ const BestSelling = () => {
                         <h2 className="font-semibold">$ 23</h2>
                     </div>
                 </div>
+                <div className="hover:shadow-md duration-300 cursor-pointer rounded-md p-2">
+                    <img className="rounded-md" src="/src/assets/DSC_9536.JPG" alt="" />
+                    <hr className="my-6" />
+                    <div className="flex justify-between mx-2">
+                        <h1 className="font-semibold">Blue Cart Eye Protect</h1>
+                        <h2 className="font-semibold">$ 23</h2>
+                    </div>
+                </div>
+                <div className="hover:shadow-md duration-300 cursor-pointer rounded-md p-2">
+                    <img className="rounded-md" src="/src/assets/DSC_9536.JPG" alt="" />
+                    <hr className="my-6" />
+                    <div className="flex justify-between mx-2">
+                        <h1 className="font-semibold">Blue Cart Eye Protect</h1>
+                        <h2 className="font-semibold">$ 23</h2>
+                    </div>
+                </div>
             </div>
         </div>
     );
